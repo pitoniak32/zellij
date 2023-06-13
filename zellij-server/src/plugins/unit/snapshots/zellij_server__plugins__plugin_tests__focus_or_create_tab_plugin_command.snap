@@ -1,6 +1,6 @@
 ---
 source: zellij-server/src/plugins/./unit/plugin_tests.rs
-assertion_line: 2388
+assertion_line: 2769
 expression: "format!(\"{:#?}\", new_tab_event)"
 ---
 Some(
@@ -15,5 +15,6 @@ Some(
         Some(
             1,
         ),
+        None,
     ),
 )
